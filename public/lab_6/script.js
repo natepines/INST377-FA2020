@@ -1,5 +1,6 @@
 // You may wish to find an effective randomizer function on MDN.
 
+
 function range(int) {
   const arr = [];
   for (let i = 0; i < int; i += 1) {
@@ -28,7 +29,7 @@ document.body.addEventListener('submit', async (e) => {
     body: JSON.stringify(form)
   })
     .then((fromServer) => fromServer.json())
-    .then((fromServer) => {
+    .then((fromServer) => { 
       // You're going to do your lab work in here. Replace this comment.
       console.log('fromServer', fromServer);
     })
