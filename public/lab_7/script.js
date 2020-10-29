@@ -39,7 +39,7 @@ function makeYourOptionsObject(datapointsFromRestaurantsList) {
     },
     data: [{
       type: 'bar',
-      name: 'restaurants',
+      name: 'restaurants', 
       axisYType: 'secondary',
       dataPoints: datapointsFromRestaurantsList
     }]
